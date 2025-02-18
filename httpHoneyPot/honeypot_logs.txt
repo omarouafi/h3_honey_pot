@@ -1,35 +1,186 @@
-2025-02-18 19:17:01 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\login.py', reloading
-INFO:werkzeug: * Restarting with stat
-2025-02-18 19:17:02 -  * Debugger is active!
-2025-02-18 19:17:02 -  * Debugger PIN: 109-988-693
-2025-02-18 19:17:04 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\login.py', reloading
-INFO:werkzeug: * Restarting with stat
-2025-02-18 19:17:05 -  * Debugger is active!
-2025-02-18 19:17:05 -  * Debugger PIN: 109-988-693
-2025-02-18 19:17:20 - 127.0.0.1 - - [18/Feb/2025 19:17:20] "GET /fake-login HTTP/1.1" 200 -
-2025-02-18 19:17:46 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\login.py', reloading
-INFO:werkzeug: * Restarting with stat
-2025-02-18 19:17:47 -  * Debugger is active!
-2025-02-18 19:17:47 -  * Debugger PIN: 109-988-693
-2025-02-18 19:17:49 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\login.py', reloading
-INFO:werkzeug: * Restarting with stat
-2025-02-18 19:17:50 -  * Debugger is active!
-2025-02-18 19:17:50 -  * Debugger PIN: 109-988-693
-2025-02-18 19:18:58 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\login.py', reloading
-INFO:werkzeug: * Restarting with stat
-2025-02-18 19:18:59 -  * Debugger is active!
-2025-02-18 19:18:59 -  * Debugger PIN: 109-988-693
-2025-02-18 19:19:00 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\login.py', reloading
-INFO:werkzeug: * Restarting with stat
-2025-02-18 19:19:01 -  * Debugger is active!
-2025-02-18 19:19:01 -  * Debugger PIN: 109-988-693
-2025-02-18 19:19:04 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2025-02-18 19:56:50 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5001
-2025-02-18 19:19:04 - [33mPress CTRL+C to quit[0m
-2025-02-18 19:19:04 -  * Restarting with stat
-2025-02-18 19:19:05 -  * Debugger is active!
-2025-02-18 19:19:05 -  * Debugger PIN: 109-988-693
-2025-02-18 19:19:39 - 127.0.0.1 - - [18/Feb/2025 19:19:39] "GET /fake-login HTTP/1.1" 200 -
-2025-02-18 19:19:43 - [2025-02-18 19:19:43] Suspicious behavior detected. IP: 127.0.0.1 made requests within 4.30 seconds
-2025-02-18 19:19:43 - [2025-02-18 19:19:43] Attacker IP: 127.0.0.1 tried to login with Username: 1, Password: 1
-2025-02-18 19:19:43 - 127.0.0.1 - - [18/Feb/2025 19:19:43] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 19:56:50 - [33mPress CTRL+C to quit[0m
+2025-02-18 19:56:50 -  * Restarting with stat
+2025-02-18 19:56:51 -  * Debugger is active!
+2025-02-18 19:56:51 -  * Debugger PIN: 109-988-693
+2025-02-18 19:59:24 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 19:59:24 -  * Restarting with stat
+2025-02-18 19:59:24 -  * Debugger is active!
+2025-02-18 19:59:24 -  * Debugger PIN: 109-988-693
+2025-02-18 20:01:05 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:01:06 -  * Restarting with stat
+2025-02-18 20:01:06 -  * Debugger is active!
+2025-02-18 20:01:06 -  * Debugger PIN: 109-988-693
+2025-02-18 20:01:08 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:01:08 -  * Restarting with stat
+2025-02-18 20:01:09 -  * Debugger is active!
+2025-02-18 20:01:09 -  * Debugger PIN: 109-988-693
+2025-02-18 20:01:10 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:01:10 -  * Restarting with stat
+2025-02-18 20:01:11 -  * Debugger is active!
+2025-02-18 20:01:11 -  * Debugger PIN: 109-988-693
+2025-02-18 20:01:13 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:01:13 -  * Restarting with stat
+2025-02-18 20:01:14 -  * Debugger is active!
+2025-02-18 20:01:14 -  * Debugger PIN: 109-988-693
+2025-02-18 20:01:16 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:01:16 -  * Restarting with stat
+2025-02-18 20:01:17 -  * Debugger is active!
+2025-02-18 20:01:17 -  * Debugger PIN: 109-988-693
+2025-02-18 20:01:24 - 127.0.0.1 - - [18/Feb/2025 20:01:24] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:01:27 - [2025-02-18 20:01:27] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.35 seconds
+2025-02-18 20:01:27 - 127.0.0.1 - - [18/Feb/2025 20:01:27] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:01:29 - [2025-02-18 20:01:29] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.65 seconds
+2025-02-18 20:01:29 - 127.0.0.1 - - [18/Feb/2025 20:01:29] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:01:32 - [2025-02-18 20:01:32] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.34 seconds
+2025-02-18 20:01:32 - 127.0.0.1 - - [18/Feb/2025 20:01:32] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:01:34 - [2025-02-18 20:01:34] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.33 seconds
+2025-02-18 20:01:34 - 127.0.0.1 - - [18/Feb/2025 20:01:34] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:01:37 - [2025-02-18 20:01:37] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.67 seconds
+2025-02-18 20:01:37 - 127.0.0.1 - - [18/Feb/2025 20:01:37] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:01:39 - [2025-02-18 20:01:39] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.35 seconds
+2025-02-18 20:01:39 - 127.0.0.1 - - [18/Feb/2025 20:01:39] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:01:42 - [2025-02-18 20:01:42] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.66 seconds
+2025-02-18 20:01:42 - 127.0.0.1 - - [18/Feb/2025 20:01:42] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:01:44 - [2025-02-18 20:01:44] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.35 seconds
+2025-02-18 20:01:44 - 127.0.0.1 - - [18/Feb/2025 20:01:44] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:01:47 - [2025-02-18 20:01:47] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.65 seconds
+2025-02-18 20:01:47 - 127.0.0.1 - - [18/Feb/2025 20:01:47] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:01:49 - [2025-02-18 20:01:49] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.35 seconds
+2025-02-18 20:01:49 - 127.0.0.1 - - [18/Feb/2025 20:01:49] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:01:51 - [2025-02-18 20:01:51] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.34 seconds
+2025-02-18 20:01:51 - 127.0.0.1 - - [18/Feb/2025 20:01:51] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:01:54 - [2025-02-18 20:01:54] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.66 seconds
+2025-02-18 20:01:54 - 127.0.0.1 - - [18/Feb/2025 20:01:54] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:01:56 - [2025-02-18 20:01:56] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.35 seconds
+2025-02-18 20:01:56 - 127.0.0.1 - - [18/Feb/2025 20:01:56] "GET /fake-login HTTP/1.1" 200 -
+2025-02-18 20:04:00 - [2025-02-18 20:04:00] Attacker IP: 127.0.0.1 tried to login with Username: user, Password: sdfsdf
+2025-02-18 20:04:00 - 127.0.0.1 - - [18/Feb/2025 20:04:00] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:12:14 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:12:14 -  * Restarting with stat
+2025-02-18 20:12:15 -  * Debugger is active!
+2025-02-18 20:12:15 -  * Debugger PIN: 109-988-693
+2025-02-18 20:12:17 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:12:17 -  * Restarting with stat
+2025-02-18 20:12:18 -  * Debugger is active!
+2025-02-18 20:12:18 -  * Debugger PIN: 109-988-693
+2025-02-18 20:12:19 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:12:19 -  * Restarting with stat
+2025-02-18 20:12:20 -  * Debugger is active!
+2025-02-18 20:12:20 -  * Debugger PIN: 109-988-693
+2025-02-18 20:12:21 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:12:21 -  * Restarting with stat
+2025-02-18 20:12:22 -  * Debugger is active!
+2025-02-18 20:12:22 -  * Debugger PIN: 109-988-693
+2025-02-18 20:12:25 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:12:25 -  * Restarting with stat
+2025-02-18 20:12:26 -  * Debugger is active!
+2025-02-18 20:12:26 -  * Debugger PIN: 109-988-693
+2025-02-18 20:12:28 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:12:28 -  * Restarting with stat
+2025-02-18 20:12:28 -  * Debugger is active!
+2025-02-18 20:12:28 -  * Debugger PIN: 109-988-693
+2025-02-18 20:14:09 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:14:09 -  * Restarting with stat
+2025-02-18 20:14:10 -  * Debugger is active!
+2025-02-18 20:14:10 -  * Debugger PIN: 109-988-693
+2025-02-18 20:14:16 - [2025-02-18 20:14:16] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:16 - 127.0.0.1 - - [18/Feb/2025 20:14:16] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:19 - [2025-02-18 20:14:19] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.35 seconds
+2025-02-18 20:14:19 - [2025-02-18 20:14:19] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:19 - 127.0.0.1 - - [18/Feb/2025 20:14:19] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:21 - [2025-02-18 20:14:21] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.66 seconds
+2025-02-18 20:14:21 - [2025-02-18 20:14:21] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:21 - 127.0.0.1 - - [18/Feb/2025 20:14:21] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:24 - [2025-02-18 20:14:24] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.35 seconds
+2025-02-18 20:14:24 - [2025-02-18 20:14:24] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:24 - 127.0.0.1 - - [18/Feb/2025 20:14:24] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:27 - [2025-02-18 20:14:27] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.67 seconds
+2025-02-18 20:14:27 - [2025-02-18 20:14:27] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:27 - 127.0.0.1 - - [18/Feb/2025 20:14:27] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:29 - [2025-02-18 20:14:29] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.35 seconds
+2025-02-18 20:14:29 - [2025-02-18 20:14:29] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:29 - 127.0.0.1 - - [18/Feb/2025 20:14:29] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:32 - [2025-02-18 20:14:32] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.68 seconds
+2025-02-18 20:14:32 - [2025-02-18 20:14:32] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:32 - 127.0.0.1 - - [18/Feb/2025 20:14:32] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:34 - [2025-02-18 20:14:34] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.34 seconds
+2025-02-18 20:14:34 - [2025-02-18 20:14:34] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:34 - 127.0.0.1 - - [18/Feb/2025 20:14:34] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:37 - [2025-02-18 20:14:37] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.81 seconds
+2025-02-18 20:14:37 - [2025-02-18 20:14:37] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:37 - 127.0.0.1 - - [18/Feb/2025 20:14:37] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:39 - [2025-02-18 20:14:39] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.35 seconds
+2025-02-18 20:14:39 - [2025-02-18 20:14:39] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:39 - 127.0.0.1 - - [18/Feb/2025 20:14:39] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:42 - [2025-02-18 20:14:42] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.66 seconds
+2025-02-18 20:14:42 - [2025-02-18 20:14:42] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:42 - 127.0.0.1 - - [18/Feb/2025 20:14:42] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:44 - [2025-02-18 20:14:44] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.38 seconds
+2025-02-18 20:14:44 - [2025-02-18 20:14:44] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:44 - 127.0.0.1 - - [18/Feb/2025 20:14:44] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:47 - [2025-02-18 20:14:47] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.68 seconds
+2025-02-18 20:14:47 - [2025-02-18 20:14:47] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:47 - 127.0.0.1 - - [18/Feb/2025 20:14:47] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:49 - [2025-02-18 20:14:49] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.36 seconds
+2025-02-18 20:14:49 - [2025-02-18 20:14:49] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:49 - 127.0.0.1 - - [18/Feb/2025 20:14:49] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:52 - [2025-02-18 20:14:52] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.91 seconds
+2025-02-18 20:14:52 - [2025-02-18 20:14:52] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:52 - 127.0.0.1 - - [18/Feb/2025 20:14:52] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:54 - [2025-02-18 20:14:54] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.39 seconds
+2025-02-18 20:14:54 - [2025-02-18 20:14:54] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:54 - 127.0.0.1 - - [18/Feb/2025 20:14:54] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:14:57 - [2025-02-18 20:14:57] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.72 seconds
+2025-02-18 20:14:57 - [2025-02-18 20:14:57] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:14:57 - 127.0.0.1 - - [18/Feb/2025 20:14:57] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:15:00 - [2025-02-18 20:15:00] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.43 seconds
+2025-02-18 20:15:00 - [2025-02-18 20:15:00] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:15:00 - 127.0.0.1 - - [18/Feb/2025 20:15:00] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:15:02 - [2025-02-18 20:15:02] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.67 seconds
+2025-02-18 20:15:02 - [2025-02-18 20:15:02] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:15:02 - 127.0.0.1 - - [18/Feb/2025 20:15:02] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:15:05 - [2025-02-18 20:15:05] Suspicious behavior detected. IP: 127.0.0.1 made requests within 2.35 seconds
+2025-02-18 20:15:05 - [2025-02-18 20:15:05] Attacker IP: 127.0.0.1 tried to login with Username: hacker, Password: 123456
+2025-02-18 20:15:05 - 127.0.0.1 - - [18/Feb/2025 20:15:05] "POST /fake-login HTTP/1.1" 200 -
+2025-02-18 20:15:15 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:15:15 -  * Restarting with stat
+2025-02-18 20:15:16 -  * Debugger is active!
+2025-02-18 20:15:16 -  * Debugger PIN: 109-988-693
+2025-02-18 20:15:20 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:15:20 -  * Restarting with stat
+2025-02-18 20:15:20 -  * Debugger is active!
+2025-02-18 20:15:20 -  * Debugger PIN: 109-988-693
+2025-02-18 20:15:22 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:15:23 -  * Restarting with stat
+2025-02-18 20:15:23 -  * Debugger is active!
+2025-02-18 20:15:23 -  * Debugger PIN: 109-988-693
+2025-02-18 20:15:24 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:15:24 -  * Restarting with stat
+2025-02-18 20:15:25 -  * Debugger is active!
+2025-02-18 20:15:25 -  * Debugger PIN: 109-988-693
+2025-02-18 20:15:27 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:15:27 -  * Restarting with stat
+2025-02-18 20:15:28 -  * Debugger is active!
+2025-02-18 20:15:28 -  * Debugger PIN: 109-988-693
+2025-02-18 20:15:29 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:15:29 -  * Restarting with stat
+2025-02-18 20:15:30 -  * Debugger is active!
+2025-02-18 20:15:30 -  * Debugger PIN: 109-988-693
+2025-02-18 20:15:33 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:15:33 -  * Restarting with stat
+2025-02-18 20:15:34 -  * Debugger is active!
+2025-02-18 20:15:34 -  * Debugger PIN: 109-988-693
+2025-02-18 20:15:40 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:15:40 -  * Restarting with stat
+2025-02-18 20:15:41 -  * Debugger is active!
+2025-02-18 20:15:41 -  * Debugger PIN: 109-988-693
+2025-02-18 20:15:43 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:15:43 -  * Restarting with stat
+2025-02-18 20:15:43 -  * Debugger is active!
+2025-02-18 20:15:43 -  * Debugger PIN: 109-988-693
+2025-02-18 20:15:45 -  * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\httpHoneyPot\\hacker_attacks_script.py', reloading
+2025-02-18 20:15:45 -  * Restarting with stat
+2025-02-18 20:15:45 -  * Debugger is active!
+2025-02-18 20:15:46 -  * Debugger PIN: 109-988-693
