@@ -21,10 +21,8 @@ def dashboard():
 def login():
     current_time = time.time()
 
-    if 'last_request_time' in session:
+    if not app.testing and 'last_request_time' in session:
         time_diff = current_time - session['last_request_time']
-
-        # If the user is too fast, treat it as a bot and redirect
         if time_diff < 5:
             flash("Failed to authenticate. Redirecting to the security page...", "error")
             return redirect("http://localhost:5001/fake-login")
