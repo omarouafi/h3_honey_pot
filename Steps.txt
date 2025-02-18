@@ -1,0 +1,10 @@
+1- Run the command: python login.py
+2- Run the command: python fakeLogin.py
+
+2- Open the following URL: http://localhost:5000/ 
+    (Use the correct username/password for a successful login)
+
+    For a successful login, you’ll see: f"Welcome, {username}!"
+    For an unsuccessful login, you will be redirected to the fake login page.
+
+4- The hacker's login attempts will be recorded in the honeypot_logs.txt file.

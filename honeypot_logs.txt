@@ -1,0 +1,88 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:25:02] "GET /fake-login HTTP/1.1" 200 -
+INFO:root:Attacker IP: 127.0.0.1 tried to login with Username: aerekysy, Password: qsfdqsdf
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:25:09] "POST /fake-login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\login.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:29:37] "GET /fake-login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:29:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Attacker IP: 127.0.0.1 tried to login with Username: aerekysy, Password: qsfdqsdf
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:36:06] "POST /fake-login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:36:07] "GET /fake-login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:36:12] "GET /fake-login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:37:50] "GET /fake-login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:38:02] "GET /fake-login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:38:15] "GET /fake-login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:38:15] "GET /fake-login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:40:19] "GET /fake-login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:40:21] "GET /fake-login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:40:46] "GET /fake-login HTTP/1.1" 200 -
+INFO:root:Attacker IP: 127.0.0.1 tried to login with Username: aerekysy, Password: azeaze
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:40:50] "POST /fake-login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:41:41] "GET /fake-login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:41:43] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\fakeLogin.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug: * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\fakeLogin.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug: * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\fakeLogin.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug: * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\fakeLogin.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug: * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\fakeLogin.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug: * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\login.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug: * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\login.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug: * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\login.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug: * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\login.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug: * Detected change in 'D:\\My Data\\H3 hitema Paris\\H3 hitema Paris\\cours\\M2\\CyberSecurity\\h3_honey_pot\\login.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-988-693
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:45:33] "GET /fake-login HTTP/1.1" 200 -
+INFO:root:Attacker IP: 127.0.0.1 tried to login with Username: bhuijnuib, Password: bhjibnuhb
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:45:42] "POST /fake-login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:45:53] "GET /fake-login HTTP/1.1" 200 -
+INFO:root:Attacker IP: 127.0.0.1 tried to login with Username: bhuijnuibnjij,i, Password: gyvgybgyv
+INFO:werkzeug:127.0.0.1 - - [18/Feb/2025 15:46:00] "POST /fake-login HTTP/1.1" 200 -
