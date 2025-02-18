@@ -125,6 +125,37 @@ Replace it with:
 ```
 Port 66
 ```
+### Method 2: HoneyPot Forms 
+
+A Honeypot Form is a security technique used to detect and block automated bots from submitting forms on websites. 
+The core idea is to add an extra, hidden input field that is visible to bots but invisible to human users. 
+Since bots typically fill in all input fields they detect, a filled honeypot field can be a strong indication of bot activity.
+
+### How Honeypot Forms Work
+Adding a Hidden Input Field:
+
+A form includes a hidden input field that real users do not see.
+The field is either visually hidden using CSS (display: none; or visibility: hidden;) or positioned off-screen.
+User vs. Bot Behavior:
+
+A real user will not fill out the hidden field because they never see it.
+A bot, which scans and fills all input fields, will likely enter data into the honeypot field.
+Form Submission Validation:
+
+If the honeypot field contains any data, the form submission is flagged as spam and either ignored or logged for further analysis.
+If the honeypot field is empty, the submission is considered legitimate.
+
+### Advantages :
+
+- Invisible to real users (no CAPTCHA frustration).
+- Easy to implement with minimal impact on UX.
+- No JavaScript dependency, making it accessible.
+
+### Limitations :
+
+- Advanced bots can detect hidden fields using CSS analysis.
+- Some screen readers may still detect the field, potentially affecting accessibility.
+
 
 ## Setting Up a Honeypot with an HTTP Server
 (Coming soon...)
