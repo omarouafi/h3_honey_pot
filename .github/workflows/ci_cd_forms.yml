@@ -3,7 +3,7 @@ name: Deploy NEXT.js App to Ubuntu Server
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   test:
