@@ -23,6 +23,7 @@ jobs:
         run: |
           if sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no -p 66 $DEPLOY_USER@$DEPLOY_SERVER "exit"; then
             ls -la
+            whoami
             docker run -p 7777:2222 cowrie/cowrie:latest -d
             echo "SSH on port 66 succeeded as expected"
           else
