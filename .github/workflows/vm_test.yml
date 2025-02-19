@@ -23,6 +23,13 @@ jobs:
         run: |
           if sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no -p 66 $DEPLOY_USER@$DEPLOY_SERVER "exit"; then
             echo "SSH on port 66 succeeded as expected"
+            
+            # Run commands inside the VM
+            sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no -p 66 $DEPLOY_USER@$DEPLOY_SERVER << 'EOF'
+              ls -la
+              whoami
+              docker run -p 7777:2222 -d cowrie/cowrie:latest
+            EOF
           else
             echo "SSH on port 66 failed unexpectedly"
             exit 1
