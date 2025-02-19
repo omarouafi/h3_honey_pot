@@ -1,0 +1,4 @@
+twisted
+elasticsearch
+python-json-logger
+
