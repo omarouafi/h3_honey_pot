@@ -25,8 +25,8 @@ jobs:
             ls -la
             docker stop $(docker ps -a -q)
             docker rm $(docker ps -a -q)
-            
             docker run -p 7777:2222 -d cowrie/cowrie:latest
+            sleep 10
           EOF
         
 
