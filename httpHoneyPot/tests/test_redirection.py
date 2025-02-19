@@ -23,7 +23,7 @@ class RedirectionTests(unittest.TestCase):
         self.client.post('/login', data={'username': 'user', 'password': 'wrongpassword'})
         response = self.client.post('/login', data={'username': 'user', 'password': 'wrongpassword'})
         self.assertEqual(response.status_code, 302)
-        self.assertEqual(response.location, 'http://localhost:5001/fake-login')
+        self.assertEqual(response.location, 'http://localhost:5003/fake-login')
 
     def test_redirect_after_logout(self):
         "Test that after logout, the user is redirected to the home page."

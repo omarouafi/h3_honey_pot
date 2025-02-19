@@ -8,3 +8,8 @@
     For an unsuccessful login, you will be redirected to the fake login page.
 
 4- The hacker's login attempts will be recorded in the honeypot_logs.txt file.
+
+
+Running the container logs : 
+    docker build -t honeypot-app .
+    docker run -p 6000:6000 -p 6001:6001 honeypot-app

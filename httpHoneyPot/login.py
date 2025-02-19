@@ -14,7 +14,7 @@ It provides the following routes:
 Note:
     When login requests are made too rapidly (less than 5 seconds apart),
     the application (unless in testing mode) redirects to a honeypot page at
-    "http://localhost:5001/fake-login".
+    "http://localhost:5003/fake-login".
 """
 
 from flask import Flask, render_template, request, redirect, session, url_for, flash
@@ -65,7 +65,7 @@ def login():
         time_diff = current_time - session['last_request_time']
         if time_diff < 5:
             flash("Failed to authenticate. Redirecting to the security page...", "error")
-            return redirect("http://localhost:5001/fake-login")
+            return redirect("http://localhost:5003/fake-login")
 
     session['last_request_time'] = current_time
 
@@ -92,4 +92,4 @@ def logout():
     return redirect(url_for('home'))
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(host='0.0.0.0', port=5002)
