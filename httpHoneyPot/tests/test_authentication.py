@@ -1,7 +1,8 @@
 import unittest
 import time
 from flask import session
-from login import app
+from httpHoneyPot.login import app
+from httpHoneyPot.fakeLogin import app as fake_app
 
 class AuthenticationTests(unittest.TestCase):
 
