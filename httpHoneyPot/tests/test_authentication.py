@@ -51,7 +51,7 @@ class AuthenticationTests(unittest.TestCase):
         self.client.post('/login', data={'username': 'wronguser', 'password': 'wrongpassword'})
         response = self.client.post('/login', data={'username': 'user', 'password': 'password'})
         self.assertEqual(response.status_code, 302)
-        self.assertEqual(response.location, 'http://localhost:5001/fake-login')
+        self.assertEqual(response.location, 'http://localhost:5003/fake-login')
         app.testing = True
 
 if __name__ == "__main__":
