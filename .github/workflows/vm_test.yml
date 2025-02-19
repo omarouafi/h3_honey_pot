@@ -1,0 +1,41 @@
+name: VM Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sshpass git
+
+      - name: Test SSH on port 66
+        env:
+          DEPLOY_SERVER: ${{ secrets.IP }}
+          SSH_PASSWORD: ${{ secrets.PASSWORD }}
+          DEPLOY_USER: ${{ secrets.USERNAME }}
+        run: |            
+          sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no -p 66 $DEPLOY_USER@$DEPLOY_SERVER << 'EOF'
+            ls -la
+            docker stop $(docker ps -a -q)
+            docker rm $(docker ps -a -q)
+            docker run -p 7777:2222 -d cowrie/cowrie:latest
+            sleep 10
+          EOF
+        
+
+      - name: Honeypot VM
+        env:
+          DEPLOY_SERVER: ${{ secrets.IP }}
+          SSH_PASSWORD: ${{ secrets.PASSWORD }}
+          DEPLOY_USER: ${{ secrets.USERNAME }}
+        run: |
+          sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no -p 7777 $DEPLOY_USER@$DEPLOY_SERVER << 'EOF'
+            ls -la
+          EOF

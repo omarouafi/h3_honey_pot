@@ -19,8 +19,8 @@ import requests
 import time
 from urllib.parse import urljoin
 
-LOGIN_URL = "http://127.0.0.1:5000/login"
-BASE_URL = "http://127.0.0.1:5000"
+LOGIN_URL = "http://127.0.0.1:5002/login"
+BASE_URL = "http://127.0.0.1:5002"
 USERNAME = "hacker"
 PASSWORD = "123456"
 ATTACK_ATTEMPTS = 60

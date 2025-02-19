@@ -18,7 +18,7 @@ app.secret_key = 'your_secret_key'
 
 logging.basicConfig(
     filename="honeypot_logs.txt",
-    level=logging.INFO,
+    level=logging.DEBUG,
     format="%(asctime)s - %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S"
 )
@@ -56,4 +56,4 @@ def fake_login():
     return render_template('fakeLogin.html')
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5001)
+    app.run(host='0.0.0.0', port=5003)
