@@ -34,7 +34,7 @@ jobs:
 
     - name: Run Docker container
       run: |
-        docker run -d -p 5002:5002 -p 5003:5003 honeypot-app  
+        docker run -d --name honeypot-container -p 5002:5002 -p 5003:5003 honeypot-app  
 
     - name: Check Docker container status
       run: |
@@ -42,4 +42,4 @@ jobs:
 
     - name: Stop Docker container
       run: |
-        docker stop honeypot-app
+        docker stop honeypot-container
