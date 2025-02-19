@@ -158,13 +158,33 @@ If the honeypot field is empty, the submission is considered legitimate.
 
 
 ## Setting Up a Honeypot with an HTTP Server
-(Coming soon...)
+Let's set up a honeypot using HTTP (like a fake website) to attract and monitor bad guys.
+
+### Step 1 : Set Up a Fake HTTP Server
+
+create a fake HTTP server that listens for incoming connections. 
+This server should look like a real website, but it won't serve any actual content. 
+Instead, it will just accept requests and log them.
+we're going to use Python HTTP server.
+
+### Step 2 : Configure HTTP Server to Log Everything
+
+you'll need to configure logging so that you can see what the bad guys are doing.
+since we are using Python HTTP server, it already logs every request to the terminal or a log file by default.
+for example : 
+if they try to access a login page or inject code (e.g., trying admin as the username or sending SQL-like commands), you can see these actions in the logs.
+
+### Step 3 : Record Bad Guys' Actions
+
+
+
+### Step 4 : Monitor & Analyze the Logs
 
 ---
 ### Contributors
-#### OUAFI Omar
-#### EREKYSY Anass
-#### NAOUI Nassera
+##### OUAFI Omar
+##### EREKYSY Anass
+##### NAOUI Nassera
 
 
 
