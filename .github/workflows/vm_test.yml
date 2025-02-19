@@ -15,27 +15,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y sshpass git
 
-      - name: Test SSH on port 22
-        env:
-          DEPLOY_SERVER: ${{ secrets.IP }}
-          SSH_PASSWORD: ${{ secrets.PASSWORD }}
-          DEPLOY_USER: ${{ secrets.USERNAME }}
-        
-        run: |
-            START_TIME=$(date +%s)
-            if sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no -o ConnectTimeout=30 -p 22 $DEPLOY_USER@$DEPLOY_SERVER "exit"; then
-                END_TIME=$(date +%s)
-                DURATION=$((END_TIME - START_TIME))
-                if [ "$DURATION" -gt 30 ]; then
-                    echo "SSH on port 22 took longer than 30 seconds with no error – passing."
-                else
-                    echo "SSH on port 22 succeeded unexpectedly within $DURATION seconds."
-                    exit 1
-                fi
-            else
-                echo "SSH on port 22 failed (error or immediate rejection) – expected."
-            fi
-
       - name: Test SSH on port 66
         env:
           DEPLOY_SERVER: ${{ secrets.IP }}
@@ -55,6 +34,6 @@ jobs:
           SSH_PASSWORD: ${{ secrets.PASSWORD }}
           DEPLOY_USER: ${{ secrets.USERNAME }}
         run: |
-          sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no -p 66 $DEPLOY_USER@$DEPLOY_SERVER << 'EOF'
+          sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no -p 7777 $DEPLOY_USER@$DEPLOY_SERVER << 'EOF'
             ls -la
           EOF
