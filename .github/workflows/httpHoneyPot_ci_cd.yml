@@ -1,0 +1,44 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'  
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r httpHoneyPot/requirements.txt 
+
+    - name: Run tests
+      run: |
+        pytest httpHoneyPot/tests 
+
+    - name: Build Docker image
+      run: |
+        docker build -t honeypot-app ./httpHoneyPot  
+
+    - name: Run Docker container
+      run: |
+        docker run -d -p 5002:5002 -p 5003:5003 honeypot-app  
+
+    - name: Check Docker container status
+      run: |
+        docker ps
+
+    - name: Stop Docker container
+      run: |
+        docker stop honeypot-app
