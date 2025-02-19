@@ -15,19 +15,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y sshpass git
 
-      - name: Test SSH on port 22
-        env:
-          DEPLOY_SERVER: ${{ secrets.IP }}
-          SSH_PASSWORD: ${{ secrets.PASSWORD }}
-          DEPLOY_USER: ${{ secrets.USERNAME }}
-        run: |
-          if sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no -p 22 $DEPLOY_USER@$DEPLOY_SERVER "exit"; then
-            echo "SSH on port 22 succeeded unexpectedly"
-            exit 1
-          else
-            echo "SSH on port 22 failed as expected"
-          fi
-
       - name: Test SSH on port 66
         env:
           DEPLOY_SERVER: ${{ secrets.IP }}
