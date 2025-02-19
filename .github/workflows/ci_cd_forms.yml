@@ -23,17 +23,21 @@ jobs:
         cd honeypotforms
     - name: Install dependencies
       run: |
+        cd honeypotforms &&
         npm ci
 
     - name: Start the app
       run: |
+        cd honeypotforms &&
         npm run build
         npm start &
 
     - name: Install Cypress
       run: |
+        cd honeypotforms &&
         npm install cypress
 
     - name: Run Cypress tests
       run: |
+        cd honeypotforms &&
         npx cypress run --browser chrome --headless
