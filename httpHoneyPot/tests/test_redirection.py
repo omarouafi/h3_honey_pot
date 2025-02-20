@@ -1,8 +1,8 @@
 import unittest
 import time
 from flask import session
-from login import app  # Your main application
-from fakeLogin import app as fake_app
+from httpHoneyPot.login import app
+from httpHoneyPot.fakeLogin import app as fake_app
 
 class RedirectionTests(unittest.TestCase):
 
