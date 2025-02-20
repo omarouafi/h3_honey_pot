@@ -1,0 +1,3 @@
+build the image : docker build -t honeypot-app-2 .  
+
+start the container : docker run -p 8080:8080 honeypot-app-2
