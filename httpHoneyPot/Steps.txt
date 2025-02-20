@@ -9,7 +9,11 @@
 
 4- The hacker's login attempts will be recorded in the honeypot_logs.txt file.
 
-
+-------------------------------------------------------------------------------------
+Running tests : pytest httpHoneyPot/tests
+Running the login server : python login.py
+Running the fake login server : python fakeLogin.py
+Running the fake hacker script simulation : python hacker_attacks_script.py
 Running the container logs : 
     docker build -t honeypot-app .
     docker run -p 6000:6000 -p 6001:6001 honeypot-app
