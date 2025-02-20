@@ -1,3 +1,4 @@
+docker run -d --name elasticsearch -p 9200:9200 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.10.0
+http://localhost:9200/honeypot-logs/_search?pretty=true
 build the image : docker build -t honeypot-app-2 .  
-
 start the container : docker run -p 8080:8080 honeypot-app-2
