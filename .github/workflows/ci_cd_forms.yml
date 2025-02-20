@@ -10,35 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 20
 
-<<<<<<< HEAD
-      - name: Get in honey pot forms
-        run: |
-          cd honeypotforms
-      - name: Install dependencies
-        run: |
-          npm ci
-
-      - name: Start the app
-        run: |
-          npm run build
-          npm start &
-
-      - name: Install Cypress
-        run: |
-          npm install cypress
-
-      - name: Run Cypress tests
-        run: |
-          npx cypress run --browser chrome --headless
-=======
     - name: Get in honey pot forms
       run: |
         cd honeypotforms
@@ -46,20 +25,16 @@ jobs:
       run: |
         cd honeypotforms &&
         npm ci
-
     - name: Start the app
       run: |
         cd honeypotforms &&
         npm run build
         npm start &
-
     - name: Install Cypress
       run: |
         cd honeypotforms &&
         npm install cypress
-
     - name: Run Cypress tests
       run: |
         cd honeypotforms &&
         npx cypress run --browser chrome --headless
->>>>>>> 2e32e6119c9c3435bdddd26d0fe07e1182932653
