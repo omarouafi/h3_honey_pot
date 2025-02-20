@@ -18,22 +18,26 @@ export default function Home() {
   };
 
   const handleSubmit = (e) => {
-    setError(null);
-    setSuccess(null);
-    e.preventDefault();
-    if (formData.honeypot) {
-      setError("Bot detected!");
-      return;
+    try {
+      setError(null);
+      setSuccess(null);
+      e.preventDefault();
+      if (formData.honeypot) {
+        setError("Bot detected!");
+        return;
+      }
+      setSuccess("Form submitted successfully!");
+    } catch (e) {
+      console.log("Error")
     }
-    setSuccess("Form submitted successfully!");
   };
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100 px-4 sm:px-6 lg:px-8">
       <div className="w-full max-w-md bg-white shadow-lg rounded-2xl p-6 sm:p-8">
         <h2 className="text-2xl font-bold text-center text-gray-900">Contact Us</h2>
-        { error && <div className="text-red-500 text-sm mt-4">{error}</div> }
-        { success && <div className="text-green-500 text-sm mt-4">{success}</div> }
+        {error && <div className="text-red-500 text-sm mt-4">{error}</div>}
+        {success && <div className="text-green-500 text-sm mt-4">{success}</div>}
         <form onSubmit={handleSubmit} className="mt-6 space-y-4">
           <div>
             <label className="block text-sm font-medium text-gray-700">Name</label>
