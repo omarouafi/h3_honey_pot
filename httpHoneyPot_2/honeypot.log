@@ -88,3 +88,11 @@
 {"message": "Repeated attack from 127.0.0.1"}
 {"message": "Failed to send alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4399c41022csm27423905e9.40 - gsmtp')"}
 {"message": "Failed to send alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4399c41022csm27423905e9.40 - gsmtp')"}
+{"message": "Honeypot HTTP server running on port 8080..."}
+{"message": "Honeypot HTTP server running on port 8080..."}
+{"message": "GET request from 127.0.0.1 to /"}
+{"message": "GET request from 127.0.0.1 to /"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C168793CB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C168793CB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}

@@ -4,7 +4,6 @@ from collections import defaultdict
 from logger import logger
 from config import EMAIL_CONFIG
 
-# To track attack patterns
 attack_counts = defaultdict(int)
 
 def detect_attack_patterns(attacker_ip, method, details):
