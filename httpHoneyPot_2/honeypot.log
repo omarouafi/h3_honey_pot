@@ -96,3 +96,77 @@
 {"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/"}
 {"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C168793CB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
 {"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C168793CB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "GET request from 127.0.0.1 to /"}
+{"message": "GET request from 127.0.0.1 to /"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C1688128B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C1688128B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "GET request from 127.0.0.1 to /admin"}
+{"message": "GET request from 127.0.0.1 to /admin"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/admin"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/admin"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C1688068B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C1688068B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "GET request from 127.0.0.1 to /"}
+{"message": "GET request from 127.0.0.1 to /"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C168807350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C168807350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "GET request from 127.0.0.1 to /"}
+{"message": "GET request from 127.0.0.1 to /"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C1686C3DF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C1686C3DF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "GET request from 127.0.0.1 to /admin"}
+{"message": "GET request from 127.0.0.1 to /admin"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/admin"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/admin"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C168806690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C168806690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "Repeated attack from 127.0.0.1"}
+{"message": "Repeated attack from 127.0.0.1"}
+{"message": "Failed to send alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-439858ec5fasm123061335e9.29 - gsmtp')"}
+{"message": "Failed to send alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-439858ec5fasm123061335e9.29 - gsmtp')"}
+{"message": "GET request from 127.0.0.1 to /admin"}
+{"message": "GET request from 127.0.0.1 to /admin"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/admin"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/admin"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C168804E20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C168804E20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "Repeated attack from 127.0.0.1"}
+{"message": "Repeated attack from 127.0.0.1"}
+{"message": "Failed to send alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-38f258dd5acsm21703399f8f.35 - gsmtp')"}
+{"message": "Failed to send alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-38f258dd5acsm21703399f8f.35 - gsmtp')"}
+{"message": "POST request from 127.0.0.1: user=root&pass=rootpassword"}
+{"message": "POST request from 127.0.0.1: user=root&pass=rootpassword"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "POST", "details": "user=root&pass=rootpassword"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "POST", "details": "user=root&pass=rootpassword"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C168807F00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C168807F00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "Repeated attack from 127.0.0.1"}
+{"message": "Repeated attack from 127.0.0.1"}
+{"message": "Failed to send alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4395a04f8c1sm253833855e9.8 - gsmtp')"}
+{"message": "Failed to send alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4395a04f8c1sm253833855e9.8 - gsmtp')"}
+{"message": "GET request from 127.0.0.1 to /admin"}
+{"message": "GET request from 127.0.0.1 to /admin"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/admin"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "GET", "details": "/admin"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C1688C48D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "Failed to log to Elasticsearch: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x000001C1688C48D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"}
+{"message": "Repeated attack from 127.0.0.1"}
+{"message": "Repeated attack from 127.0.0.1"}
+{"message": "Failed to send alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4399c4e3b1esm39780345e9.1 - gsmtp')"}
+{"message": "Failed to send alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-4399c4e3b1esm39780345e9.1 - gsmtp')"}
+{"message": "POST request from 127.0.0.1: user=root&pass=rootpassword"}
+{"message": "POST request from 127.0.0.1: user=root&pass=rootpassword"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "POST", "details": "user=root&pass=rootpassword"}
+{"message": "", "attacker_ip": "127.0.0.1", "method": "POST", "details": "user=root&pass=rootpassword"}
+{"message": "Failed to log to Elasticsearch: ApiError(406, 'Content-Type header [application/vnd.elasticsearch+json; compatible-with=8] is not supported', 'Content-Type header [application/vnd.elasticsearch+json; compatible-with=8] is not supported')"}
+{"message": "Failed to log to Elasticsearch: ApiError(406, 'Content-Type header [application/vnd.elasticsearch+json; compatible-with=8] is not supported', 'Content-Type header [application/vnd.elasticsearch+json; compatible-with=8] is not supported')"}
+{"message": "Repeated attack from 127.0.0.1"}
+{"message": "Repeated attack from 127.0.0.1"}
+{"message": "Failed to send alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-38f258b4163sm21779913f8f.19 - gsmtp')"}
+{"message": "Failed to send alert: (535, b'5.7.8 Username and Password not accepted. For more information, go to\\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-38f258b4163sm21779913f8f.19 - gsmtp')"}

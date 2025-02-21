@@ -1,0 +1,22 @@
+config:
+  target: "http://localhost:5002"
+  phases:
+    - duration: 60  
+      arrivalRate: 5
+  defaults:
+    headers:
+      Content-Type: "application/x-www-form-urlencoded"
+
+scenarios:
+  - flow:
+      - post:
+          url: "/login"
+          form:
+            username: "user"
+            password: "password"
+      - think: 2 
+      - get:
+          url: "/dashboard"
+      - think: 2
+      - get:
+          url: "/logout"

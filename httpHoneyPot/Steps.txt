@@ -17,3 +17,8 @@ Running the fake hacker script simulation : python hacker_attacks_script.py
 Running the container logs : 
     docker build -t honeypot-app .
     docker run -p 6000:6000 -p 6001:6001 honeypot-app
+
+-------------------------------------------------------------------
+Performacne tests : 
+    npm install -g artillery
+    artillery run load-test.yml
